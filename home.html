@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <div class='main-title text-center'> Давай проверим твои знания!  </div>
+    <div class='main-title text-center'> Выбери то что можно взять в поездку </div>
+
+    <div class="draggable" id='e1' name='med'>
+      <img src='images/med.png'>
+    </div>
+
+    <div class="draggable" id='e2' name='bottle'>
+      <img src='images/bottle.png'>
+    </div>
+
+
+    <div class="draggable" id='e3' name='money'>
+      <img src='images/money.png'>
+    </div>
+
+    <div class="draggable" id='e4' name='sculpt'>
+      <img src='images/sculpt.png'>
+    </div>
+
+    <div class="draggable" id='e5' name='seeds'>
+      <img src='images/seeds.png'>
+    </div>
+
+    <div class="draggable" id='e6' name='clothes'>
+      <img src='images/clothes.png'>
+    </div>
+
+    <div class="draggable" id='e7' name='jewerly'>
+      <img src='images/jewerly.png'>
+    </div>
+
+    <div class="draggable" id='e8' name='glock'>
+      <img src='images/glock.png'>
+    </div>
+
+        <div class='droppable'>
+          <img src="images/package.png" >
+        </div>
+
+    <button id='go' disabled> Отправиться! </button>
+
+    <div id='counter'> 0/3 </div>
+
+  <div id='menu'>
+      <div class='text-center' id='result'>Оценка:</div>
+        <ul id = 'results' >
+
+        </ul>
+      <button id='go'  onclick="location.reload();"> Еще раз </button>
+  </div>
+
+  <script src="js\jquery-3.6.0.min.js"></script>
+  <script src='js\main.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdn.polyfill.io/v1/polyfill.js?features=Element.prototype.closest"></script>
+</body>
+</html>
