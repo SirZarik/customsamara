@@ -12,3 +12,8 @@ git push -u origin main
 git add .
 git commit -m "initial commit"
 git push origin master
+git push heroku develop:master
+git commit -m 'ala ulu'
+git add .
+git commit -m 'ala ulu'
+git push origin master
